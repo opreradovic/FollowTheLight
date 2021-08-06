@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3483605882227309129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3483605882227309175}
+  - component: {fileID: 3483605882227309174}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3483605882227309175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3483605882227309129}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3483605882227309174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3483605882227309129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba9fe3a91d8e0a4089a222b2e598645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BackgroundMusic
+    clip: {fileID: 8300000, guid: 444bf84bcac6f0b4e9e75624c7f9c6b0, type: 3}
+    volume: 0.5
+    pitch: 1
+    isLooping: 1
+    mixerGroup: {fileID: -539598402146484749, guid: 409ff53cd0d50a041af0827579e226ca,
+      type: 2}
+  - name: Death
+    clip: {fileID: 8300000, guid: e0129e63d686d7c468bb0b074542d9c2, type: 3}
+    volume: 0.5
+    pitch: 1
+    isLooping: 0
+    mixerGroup: {fileID: 946707736133777253, guid: 409ff53cd0d50a041af0827579e226ca,
+      type: 2}
+  - name: JumpPad
+    clip: {fileID: 8300000, guid: b7ba80f629cf52d45b39c7b48afde6b4, type: 3}
+    volume: 0.5
+    pitch: 1
+    isLooping: 0
+    mixerGroup: {fileID: 946707736133777253, guid: 409ff53cd0d50a041af0827579e226ca,
+      type: 2}
+  - name: LightSwitch
+    clip: {fileID: 8300000, guid: b3c6fbdbbd8b94b47b5aad1d9b95bc6a, type: 3}
+    volume: 0.5
+    pitch: 1
+    isLooping: 0
+    mixerGroup: {fileID: 946707736133777253, guid: 409ff53cd0d50a041af0827579e226ca,
+      type: 2}
+  - name: KeyPress
+    clip: {fileID: 8300000, guid: 2344820d34f9a7e40b5464becd0eb0fb, type: 3}
+    volume: 0.5
+    pitch: 1
+    isLooping: 0
+    mixerGroup: {fileID: 946707736133777253, guid: 409ff53cd0d50a041af0827579e226ca,
+      type: 2}
+  - name: PlayerRespawn
+    clip: {fileID: 8300000, guid: 763f101efec99fe44b35f73cbb91002e, type: 3}
+    volume: 0.5
+    pitch: 1
+    isLooping: 0
+    mixerGroup: {fileID: 946707736133777253, guid: 409ff53cd0d50a041af0827579e226ca,
+      type: 2}
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: a6418790a838b4d4485cba4ed20d5982, type: 3}
+    volume: 0.5
+    pitch: 1
+    isLooping: 1
+    mixerGroup: {fileID: -539598402146484749, guid: 409ff53cd0d50a041af0827579e226ca,
+      type: 2}
+  - name: MothDeath
+    clip: {fileID: 8300000, guid: 4f197b7a5737a584ab6fdd46c97c7c3e, type: 3}
+    volume: 0.5
+    pitch: 1
+    isLooping: 0
+    mixerGroup: {fileID: 946707736133777253, guid: 409ff53cd0d50a041af0827579e226ca,
+      type: 2}
+  - name: LightBuzzing
+    clip: {fileID: 8300000, guid: 4a058ea7fc1bfa34f84d4c502da38745, type: 3}
+    volume: 1
+    pitch: 1
+    isLooping: 1
+    mixerGroup: {fileID: 946707736133777253, guid: 409ff53cd0d50a041af0827579e226ca,
+      type: 2}
+  - name: BugLightBuzzing
+    clip: {fileID: 8300000, guid: 0c5e276e7bf706d4a86c309327e138fa, type: 3}
+    volume: 0.05
+    pitch: 1
+    isLooping: 1
+    mixerGroup: {fileID: 946707736133777253, guid: 409ff53cd0d50a041af0827579e226ca,
+      type: 2}
+  masterMixer: {fileID: 24100000, guid: 409ff53cd0d50a041af0827579e226ca, type: 2}
+  musicMixer: {fileID: -539598402146484749, guid: 409ff53cd0d50a041af0827579e226ca,
+    type: 2}
+  sfxMixer: {fileID: 946707736133777253, guid: 409ff53cd0d50a041af0827579e226ca, type: 2}
+  MothDeathCount: 0

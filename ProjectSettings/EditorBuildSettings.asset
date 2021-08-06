@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 5cb71920cd536824b8356d6dd97a7e2e
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1.unity
+    guid: 7b0daba690791ec4c96203591a388d6a
+  - enabled: 1
+    path: Assets/Scenes/Tutorial2.unity
+    guid: 4fc01693abcf6334eb28aaa98407ea26
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Spikes1.unity
+    guid: a04a79a10a60f554e9bb0c43ef7fbfe9
+  - enabled: 1
+    path: Assets/Scenes/Spikes2.unity
+    guid: 8d3750f5c4410894196b199856c97f28
+  - enabled: 1
+    path: Assets/Scenes/Spikes3.unity
+    guid: 78696327c19c8e44ab322525abd4ee49
+  - enabled: 1
+    path: Assets/Scenes/WallJump1.unity
+    guid: 2eddaf304f546504d8a38d29eeb6ef49
+  - enabled: 1
+    path: Assets/Scenes/WallJump2.unity
+    guid: f2b6789d3160ffa428e423b0708cb189
+  - enabled: 1
+    path: Assets/Scenes/WallJump3.unity
+    guid: a52c6dbde6ff9c04c818de1b435ec3a3
+  - enabled: 1
+    path: Assets/Scenes/JumpPad1.unity
+    guid: 46ccfab95d67e5841b80f99954a901ee
+  - enabled: 1
+    path: Assets/Scenes/JumpPad2.unity
+    guid: ce44ae8b74f674b4da6556569fe89e77
+  - enabled: 1
+    path: Assets/Scenes/JumpPad3.unity
+    guid: 640aa5ccf74d0e14693cafab2d2f9825
+  - enabled: 1
+    path: Assets/Scenes/Ice1.unity
+    guid: 356f9ed20340db64f851e766790d6eca
+  - enabled: 1
+    path: Assets/Scenes/Ice2.unity
+    guid: 55c590a8bf33f20439a5612c8a0fbc9e
+  - enabled: 1
+    path: Assets/Scenes/Ice3.unity
+    guid: 36cf8fdd1492f15489ad2dfcbea2f8b2
+  - enabled: 1
+    path: Assets/Scenes/Ending1.unity
+    guid: 2c5d105f2eb181d43a3336536f312fbf
+  - enabled: 1
+    path: Assets/Scenes/Ending2.unity
+    guid: 811cad2a058407b4bb66b913a4e027aa
+  m_configObjects: {}
